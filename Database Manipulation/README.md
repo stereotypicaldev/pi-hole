@@ -20,11 +20,6 @@ Select Addresses by Domain Entries (number=0)
 sqlite3 "/etc/pihole/gravity.db" "SELECT address FROM adlist WHERE adlist.number=0"
 ```
 
-Select Addresses by Domain Entries (number <= 20)
-
-```sh
-sqlite3 "/etc/pihole/gravity.db" "SELECT address FROM adlist WHERE adlist.number<=20"
-```
 <br>
 
 <h3 align="center">Delete Queries</h3>
